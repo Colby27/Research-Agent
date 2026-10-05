@@ -22,4 +22,4 @@ A useful contribution could be a reproducible, geographically bounded account of
 
 This review used two searches and eight retrieval attempts, including one failed DOI access. Four papers were retained with unequal access depth; no causal or novelty claim is verified. For voice discussion, decide the target object, geography, available labeled imagery, and whether you want an explanatory benchmark or a deployable workflow.
 
-References and preserved evidence: [evidence](../runs/sam-20261005T215200Z/literature_evidence.md), [activity](../runs/sam-20261005T215200Z/activity_log.md), [study assessment](../runs/sam-20261005T215200Z/gap_assessment.md).
+References and preserved evidence: [evidence](literature_evidence.md), [activity](activity_log.md), [study assessment](gap_assessment.md).
