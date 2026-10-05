@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Research Agent: Check setup",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-File", "${workspaceFolder}/scripts/check-setup.ps1"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Research Agent: Start single agent",
+      "type": "process",
+      "command": "codex",
+      "args": ["--search", "--sandbox", "workspace-write", "-C", "${workspaceFolder}", "Read AGENTS.md, research_brief.md and prompts/investigate.md. Follow the investigation prompt using one agent. If the topic is unset, ask for it before researching."],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": [],
+      "presentation": {"reveal": "always", "panel": "dedicated"}
+    }
+  ]
+}
